@@ -1,4 +1,4 @@
-let a = +prompt('a?', '');
+let a = +prompt('a?');
 
 switch (a) {
   case 0:
@@ -11,6 +11,8 @@ switch (a) {
   case 3:
     alert('2,3');
     break;
+    default:
+      alert("xato")
 }
 
 
