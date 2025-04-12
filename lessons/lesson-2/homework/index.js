@@ -4,8 +4,8 @@ switch (a) {
   case 0:
     alert(0);
     break;
-  case 1:
-    alert(1);
+  case 5:
+    alert(5);
     break;
   case 2:
   case 3:
@@ -29,7 +29,7 @@ if (browser === 'Edge') {
     alert('We hope that this page looks ok!');
   }
 
-  let message = (login == 'Employee') ? 'Hello' :
+  let message = (login == 'Employee') ? 'Sallom' :
   (login == 'Director') ? 'Greetings' :
   (login == '') ? 'No login' :
   '';
