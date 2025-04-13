@@ -33,7 +33,7 @@ if (narx === 0) {
     console.log(`Bu mahsulot turi mavjud emas`);
 } else {
     let xisob = narx * soni;
-    let oxir = (chegirma === "ha" && xisob > '300$') ? xisob * 0.9 : xisob;
+    let oxir = (chegirma === "ha" && xisob > 300) ? xisob * 0.9 : xisob;
 
-    console.log("Yakuniy to'lov summasi: $" + oxir);
+    console.log("Siz uchun to'lov summasi: " + oxir);
 }
